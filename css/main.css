@@ -1,1 +1,515 @@
-@font-face {font-family: "Kuunari";src: url("../font/kuunari-bold-subset.v2.woff2") format("woff2");font-weight: 700;font-display: swap;}@font-face {font-family: "Kalnia";src: url("../font/Kalnia_SemiExpanded-Medium.subset-AZa-z-0-9-punct3.woff2") format("woff2");font-weight: 500;font-display: swap;}.event__item {display: flex;align-items: start;justify-content: center;gap: 10px;border-radius: 20px;background-color: #92654D;box-shadow: 0px 4px 10px 0px #764E3980;max-width: 430px;width: 100%;padding: 12px 26px 12px 12px;margin-bottom: 13px;}.event__images {max-width: clamp(94px, 29vw, 128px);width: 100%;height: auto;}.event__col {display: flex;flex-direction: column;align-items: start;margin-top: 10px;}.event__item__title {font-family: Montserrat, sans-serif;font-weight: 700;font-size: clamp(14px, 4vw, 18px);line-height: 100%;text-transform: uppercase;color: white;margin-bottom: 10px;}.event__item__text {font-family: Montserrat, sans-serif;font-weight: 400;font-size: clamp(9px, 3vw, 14px);line-height: 130%;color: white;}@media (max-width:340px) {.event__item__title {margin-bottom: 5px;}.event__item {padding: 12px;}.event__item {max-width: 300px;}}.webinar-heading2 {font: 400 clamp(33px, 10vw, 38px) / 130% "Kuunari", sans-serif;text-transform: uppercase;margin-bottom: 25px;}.webinar-section {padding-top: 26px;padding-bottom: 51px;}.webinar-learn__container {display: flex;flex-direction: column;align-items: center;}.webinar-learn__list {display: flex;flex-direction: column;gap: 60px;max-width: 323px;width: 100%;margin-bottom: 25px;padding-top: 18px;list-style: none;}.webinar-learn__list__item {background-color: #92654D;border-radius: 35px;text-align: center;position: relative;padding: 0 25px 35px 24px;}.webinar-learn__list__item__number {margin-top: -30px;margin-bottom: 18px;background: radial-gradient(50% 50% at 50% 50%, #C42216 0%, #950F05 100%);border-radius: 100px;}.webinar-learn__list__item__text span {font-weight: 600;}.webinar-learn__list__item__text {font: 600 clamp(16px, 6vw, 18px) / 130% Poppins, sans-serif;text-align: center;color: white;}.webinar-learn__bonus {max-width: 309px;width: 100%;background-color: white;border: 2px solid #FFD3A2;border-radius: 20px;color: #222222;padding: 10px;text-align: center;margin: 0 auto;}.webinar-learn__bonus__text {font: 500 18px / 130% Inter, sans-serif;margin-bottom: 5px;}.webinar-learn__bonus__timer {font: 700 32px / 130% Inter, sans-serif;}.olympics-swiper {max-width: 90%;margin: 0 auto;}.swiper-slide {display: flex;justify-content: center;align-items: center;}.swiper-next-btn {cursor: pointer;display: flex;justify-content: center;margin-top: 20px;}@media (max-width:460px) {.olympics-swiper {max-width: 100%;}}html, body {overflow-x: hidden;}.homeModal, .homeModalOverlay {position: fixed;top: 0;height: 100vh;width: 100%;left: 0;}.homeModal {z-index: 30;justify-content: center;align-items: center;display: flex;}.homeModalOverlay {background-color: rgba(0, 0, 0, 0.3);backdrop-filter: blur(5px);}.homeFormContainer {position: relative;z-index: 30;background-color: #fff;color: #000;border-radius: 8px;padding: 20px 40px 40px;width: 100%;max-width: 520px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);margin: 0 20px;position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);}.homeFormTop {display: flex;justify-content: space-between;}.homeFormTopTitle {font-family: Inter, sans-serif;font-size: clamp(21px, 6.6vw, 24px);margin: 0 0 20px;color: #000;font-weight: 600;text-align: center;margin-left: auto;margin-right: auto;}.closeButton {background: 0 0;border: none;cursor: pointer;padding: 4px;justify-content: center;align-items: center;display: flex;position: absolute;top: 20px;right: 20px;color: #000;}.homeFormErrorText {color: #e53e3e;margin-bottom: 12px;font-size: 14px;font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;padding-top: 5px;padding-bottom: 5px;}.HomeFormRowInput, .HomeFormRowLabel {font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;font-size: 18px;}.HomeFormRow {margin-bottom: 20px;}.HomeFormRowLabel {display: block;margin-bottom: 6px;color: #000;}.HomeFormRowInput {width: 100%;padding: 10px 16px;border: 1px solid #c9c9c9;min-height: 48px;background-color: #f3f7f8;border-radius: 6px;font-weight: 400;outline: 0;height: 50px;transition: border-color 0.2s;}.HomeFormRowInput:focus {border-color: #A40000;}.HomeFormRowInput::placeholder {color: #aaa;}.HomeFormBtn {font-family: sans-serif;height: 60px;width: 100%;cursor: pointer;border-radius: 10px;background: linear-gradient(92.4deg, #A40000 0.98%, #C12626 41.72%, #C82E2E 51.02%, #A40000 106.11%);transition: 0.3s;font-weight: 700;font-size: 28px;color: white;text-transform: uppercase;border: none;position: relative;display: flex;align-items: center;justify-content: center;}.phone-input-container {display: flex;align-items: center;position: relative;border: 1px solid #c9c9c9;background-color: transparent;border-radius: 6px;}.phone-input-container:focus {border-color: #e71f1f;}.selected-code {display: flex;margin-left: 10px;}.country-selector {position: relative;margin-right: 10px;}.selected-country {display: flex;align-items: center;padding: 10px;padding-right: 0;border-radius: 6px;cursor: pointer;min-height: 50px;font-family: sans-serif !important;font-size: 18px;font-weight: 400 !important;min-width: max-content;border: none;background-color: transparent;}.country-dropdown {position: absolute;top: 110%;left: 0;width: 100%;background-color: #fff;border: 1px solid #c9c9c9;border-radius: 6px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);z-index: 40;max-height: 200px;overflow-y: auto;font-family: sans-serif !important;font-weight: 400 !important;}.country-option {display: flex;justify-content: space-between;align-items: center;padding: 10px;cursor: pointer;font-family: sans-serif;font-weight: 400 !important;}.country-option:hover {background-color: #f3f7f8;}.country-option.selected {background-color: #e6f0fa;}@media screen and (max-width: 768px) {.homeFormContainer {max-width: 100%;padding: 80px 20px 20px;margin: 0;border-radius: 6px;height: 100vh;}.homeFormTopTitle {text-align: center;max-width: 408px;margin-left: auto;margin-right: auto;font-weight: 700;margin-bottom: 15px;}.homeFormTop {flex-direction: column;align-items: flex-start;}.closeButton {width: 100%;height: 50px;background-color: #000;color: #fff;padding-right: 20px;top: 0;left: 0;justify-content: end;}.homeFormErrorText {font-size: 12px;margin-bottom: 8px;}.HomeFormRowLabel {margin-bottom: 6px;}.HomeFormRowInput {padding: 0 12px;min-height: 40px;background-color: transparent;}.HomeFormRowInput::placeholder {color: #a3a3a3;}.HomeFormBtn {font-size: 18px;font-weight: 700;margin-top: 24px;}}@media screen and (max-width: 480px) {.homeFormContainer {max-width: 100%;padding: 80px 20px 20px;margin: 0;border-radius: 6px;height: 100vh;}.homeFormTopTitle {text-align: center;margin: 0 auto 15px;}.homeFormErrorText {font-size: 12px;margin-bottom: 8px;}.HomeFormRowLabel {margin-bottom: 6px;}.HomeFormRowInput {padding: 0 12px;min-height: 40px;background-color: transparent;border-radius: 10px;}.HomeFormRowInput::placeholder {color: #a3a3a3;}.HomeFormBtn {font-size: 16px;padding: 10px 0;margin-top: 24px;height: 50px;}}
+@font-face {
+    font-family: "Kuunari";
+    src: url("../font/kuunari-bold-subset.v2.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kalnia";
+    src: url("../font/Kalnia_SemiExpanded-Medium.subset-AZa-z-0-9-punct3.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+
+.event__item {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #92654D;
+    box-shadow: 0px 4px 10px 0px #764E3980;
+    max-width: 430px;
+    width: 100%;
+    padding: 12px 26px 12px 12px;
+    margin-bottom: 13px;
+}
+
+.event__images {
+    max-width: clamp(94px, 29vw, 128px);
+    width: 100%;
+    height: auto;
+}
+
+.event__col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.event__item__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: clamp(14px, 4vw, 18px);
+    line-height: 100%;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.event__item__text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: clamp(9px, 3vw, 14px);
+    line-height: 130%;
+    color: white;
+}
+
+@media (max-width:340px) {
+    .event__item__title {
+        margin-bottom: 5px;
+    }
+
+    .event__item {
+        padding: 12px;
+    }
+
+    .event__item {
+        max-width: 300px;
+    }
+}
+
+.webinar-heading2 {
+    font: 400 clamp(33px, 10vw, 38px) / 130% "Kuunari", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.webinar-section {
+    padding-top: 26px;
+    padding-bottom: 51px;
+}
+
+.webinar-learn__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.webinar-learn__list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 323px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-top: 18px;
+    list-style: none;
+}
+
+.webinar-learn__list__item {
+    background-color: #92654D;
+    border-radius: 35px;
+    text-align: center;
+    position: relative;
+    padding: 0 25px 35px 24px;
+}
+
+.webinar-learn__list__item__number {
+    margin-top: -30px;
+    margin-bottom: 18px;
+    background: radial-gradient(50% 50% at 50% 50%, #C42216 0%, #950F05 100%);
+    border-radius: 100px;
+}
+
+.webinar-learn__list__item__text span {
+    font-weight: 600;
+}
+
+.webinar-learn__list__item__text {
+    font: 600 clamp(16px, 6vw, 18px) / 130% Poppins, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.webinar-learn__bonus {
+    max-width: 309px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #FFD3A2;
+    border-radius: 20px;
+    color: #222222;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.webinar-learn__bonus__text {
+    font: 500 18px / 130% Inter, sans-serif;
+    margin-bottom: 5px;
+}
+
+.webinar-learn__bonus__timer {
+    font: 700 32px / 130% Inter, sans-serif;
+}
+
+.olympics-swiper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.swiper-wrapper {
+    display: flex;
+    animation: slideAnimation 13s infinite;
+}
+
+.swiper-slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    70% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    95% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.homeModal,
+.homeModalOverlay {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+}
+
+.homeModal {
+    z-index: 30;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.homeModalOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.homeFormContainer {
+    position: relative;
+    z-index: 30;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 20px 40px 40px;
+    width: 100%;
+    max-width: 520px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeFormTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeFormTopTitle {
+    font-family: Inter, sans-serif;
+    font-size: clamp(21px, 6.6vw, 24px);
+    margin: 0 0 20px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closeButton {
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000;
+}
+
+.homeFormErrorText {
+    color: #e53e3e;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.HomeFormRowInput,
+.HomeFormRowLabel {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 18px;
+}
+
+.HomeFormRow {
+    margin-bottom: 20px;
+}
+
+.HomeFormRowLabel {
+    display: block;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.HomeFormRowInput {
+    width: 100%;
+    padding: 10px 16px;
+    border: 1px solid #c9c9c9;
+    min-height: 48px;
+    background-color: #f3f7f8;
+    border-radius: 6px;
+    font-weight: 400;
+    outline: 0;
+    height: 50px;
+    transition: border-color 0.2s;
+}
+
+.HomeFormRowInput:focus {
+    border-color: #A40000;
+}
+
+.HomeFormRowInput::placeholder {
+    color: #aaa;
+}
+
+.HomeFormBtn {
+    font-family: sans-serif;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(92.4deg, #A40000 0.98%, #C12626 41.72%, #C82E2E 51.02%, #A40000 106.11%);
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #c9c9c9;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.phone-input-container:focus {
+    border-color: #e71f1f;
+}
+
+.selected-code {
+    display: flex;
+    margin-left: 10px;
+}
+
+.country-selector {
+    position: relative;
+    margin-right: 10px;
+}
+
+.selected-country {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-right: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    min-height: 50px;
+    font-family: sans-serif !important;
+    font-size: 18px;
+    font-weight: 400 !important;
+    min-width: max-content;
+    border: none;
+    background-color: transparent;
+}
+
+.country-dropdown {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 40;
+    max-height: 200px;
+    overflow-y: auto;
+    font-family: sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.country-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400 !important;
+}
+
+.country-option:hover {
+    background-color: #f3f7f8;
+}
+
+.country-option.selected {
+    background-color: #e6f0fa;
+}
+
+@media screen and (max-width: 768px) {
+    .homeFormContainer {
+        max-width: 100%;
+        padding: 80px 20px 20px;
+        margin: 0;
+        border-radius: 6px;
+        height: 100vh;
+    }
+
+    .homeFormTopTitle {
+        text-align: center;
+        max-width: 408px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .homeFormTop {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .closeButton {
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color: #fff;
+        padding-right: 20px;
+        top: 0;
+        left: 0;
+        justify-content: end;
+    }
+
+    .homeFormErrorText {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .HomeFormRowLabel {
+        margin-bottom: 6px;
+    }
+
+    .HomeFormRowInput {
+        padding: 0 12px;
+        min-height: 40px;
+        background-color: transparent;
+    }
+
+    .HomeFormRowInput::placeholder {
+        color: #a3a3a3;
+    }
+
+    .HomeFormBtn {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homeFormContainer {
+        max-width: 100%;
+        padding: 80px 20px 20px;
+        margin: 0;
+        border-radius: 6px;
+        height: 100vh;
+    }
+
+    .homeFormTopTitle {
+        text-align: center;
+        margin: 0 auto 15px;
+    }
+
+    .homeFormErrorText {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .HomeFormRowLabel {
+        margin-bottom: 6px;
+    }
+
+    .HomeFormRowInput {
+        padding: 0 12px;
+        min-height: 40px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    .HomeFormRowInput::placeholder {
+        color: #a3a3a3;
+    }
+
+    .HomeFormBtn {
+        font-size: 16px;
+        padding: 10px 0;
+        margin-top: 24px;
+        height: 50px;
+    }
+}
