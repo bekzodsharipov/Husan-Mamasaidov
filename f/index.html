@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Husan Mamasaidov</title>
+    <style>
+* {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: #F7F1EB;}.container {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;background-image: url(./images/bg.avif);background-repeat: no-repeat;background-size: cover;background-position: center;color: white;}.containers {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 27px;display: flex;flex-direction: column;align-items: center;}.header {padding-top: 15px;padding-bottom: 17px;}.header__box {display: flex;align-items: center;justify-content: center;gap: 5px;}.header__text {font-family: "SF Pro", sans-serif;font-weight: 400;font-size: 16px;line-height: 100%;text-align: center;}.title {font-family: "Big Shoulders Display", sans-serif;font-weight: 700;font-size: clamp(58px, 18vw, 62px);line-height: 100%;text-align: center;text-transform: uppercase;margin-bottom: 3px;background: linear-gradient(136.83deg, #FFD3A2 8.22%, #FFE2C1 52.67%, #FFD3A2 89.54%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;}.timer {font-family: "HvDTrial Brandon Text", sans-serif;font-weight: 400;font-size: 28px;line-height: 100%;text-align: center;color: #DADADA;margin-top: -40px;margin-bottom: 10px;position: relative;z-index: 25;}.text {font-family: "Big Shoulders Display", sans-serif;font-weight: 700;font-size: clamp(26px, 8vw, 28px);line-height: 130%;text-align: center;text-transform: uppercase;color: white;}.gradient {background: linear-gradient(180deg, rgba(1, 1, 0, 0) 78.37%, #010100 100%);max-width: 390px;z-index: 24;width: 100%;height: 520px;position: absolute;top: 30px;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.expert__img {object-fit: contain;max-width: 297px;width: 100%;height: auto;margin-bottom: -10px;position: relative;z-index: 1;}.speaker__gradient {background-color: #9E7665B2;filter: blur(100px);max-width: 207px;width: 100%;min-height: 193px;position: absolute;top: 280px;}.event__btn {cursor: pointer;max-width: 301px;text-decoration: none;width: 100%;display: flex;align-items: center;justify-content: center;border: none;background-color: transparent;position: relative;background: linear-gradient(90deg, #FFE9C8 0%, #FFD9AD 27%, #FFDDB5 51%, #FFDDB5 75%, #FFCC8F 100%);box-shadow: 0px 4px 0px 0px #B69369;border-radius: 100px;padding: 25px 0;height: 72px;z-index: 25;font-family: Caros, sans-serif;color: #885518;font-weight: 600;font-size: 18px;line-height: 21px;text-align: center;margin-bottom: 10px;}.event__box {display: flex;align-items: end;justify-content: end;gap: 1px;margin-bottom: 21px;color: #505050;}.event__box p {font-family: Inter, sans-serif;font-weight: 400;font-size: 14px;line-height: 130%;text-align: center;}.event__box img {object-fit: contain;}.event__list__title {text-align: center;font-family: "Big Shoulders Display", sans-serif;font-weight: 700;font-size: clamp(29px, 9vw, 32px);line-height: 125%;text-align: center;text-transform: uppercase;margin-bottom: 10px;color: black;}.event__list__title span {background: linear-gradient(90deg, #EC2424 0%, #A40000 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;}
+    </style>
+
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__box">
+                    <img src="./images/logo.avif" alt="kalendar belgisi" style="margin-top: -3px;"
+                        class="header__text__img" width="24" height="24" loading="lazy" decoding="async">
+                    <p class="header__text">
+                        husan_mamasaidov
+                    </p>
+                </div>
+            </div>
+
+            <h1 class="title">
+                o'quvchilarim
+            </h1>
+
+            <h2 class="text">
+                Aynan shu ketma-ketlik orqali <br> 70% maqsadiga erishgan!
+            </h2>
+
+            <img src="../c/images/speaker.avif" alt="Speaker rasmi" class="expert__img minifyImg" decoding="async"
+                loading="lazy" width="297" height="327">
+            <div class="gradient"></div>
+            <div class="speaker__gradient"></div>
+
+            <p class="timer" id="timer">02:00</p>
+            <button class="event__btn registerBtn">
+                Bepul qatnashish
+            </button>
+
+            <div class="event__box" style="color: #C0C0C0;">
+                <p>Bepul qatnashishga ulguring</p>
+                <img src="./images/arrow.png" loading="lazy" decoding="async" width="25" height="25" alt="arrow">
+            </div>
+        </div>
+
+        <section class="webinar-learn webinar-section">
+            <div class="webinar-learn__container">
+                <h2 class="webinar-heading2">Bpeul darsda qatnashish <br> orqali <span>o'rganasiz:</span></h2>
+                <ul class="webinar-learn__list">
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/1.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            Butun umrga yetadigan <br> <span>energiya manbayi</span> topish
+                        </p>
+                    </li>
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/2.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            <span>Uzoq muddatli maqsadlar</span> qo’yish <br> va ularga erishish strategiyasi
+                        </p>
+                    </li>
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/3.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            <span>Ishda, oilada, hayotda</span> <br> balansni ushlash
+                        </p>
+                    </li>
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/4.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            Dangasalikdan qutulishning amaliy yechimlarini o’rganasiz
+                        </p>
+                    </li>
+                </ul>
+                <button class="event__btn registerBtn">
+                    Ro’yxatdan o’tish
+                </button>
+                <div class="event__box">
+                    <p>Bepul qatnashishga ulguring</p>
+                    <img src="./images/arrow.png" loading="lazy" decoding="async" width="25" height="25" alt="arrow">
+                </div>
+            </div>
+        </section>
+
+        <section class="description">
+            <div class="description__container">
+                <h2 class="event__list__title" style="margin-bottom: 15px;">Husan Mamasaidov</h2>
+
+                <div class="description__box">
+                    <div class="description__col">
+                        <img src="./images/percent.avif" loading="lazy" decoding="async" width="36" height="22"
+                            alt="images">
+                        <p class="description__col__text">30 yillik tadbirkor, spiker,ustoz</p>
+                    </div>
+                    <div class="description__col">
+                        <img src="./images/percent.avif" loading="lazy" decoding="async" width="36" height="22"
+                            alt="images">
+                        <p class="description__col__text">5000+ inson o’qigan “My Life <br> Planner” dasturi muallifi</p>
+                    </div>
+                    <div class="description__col">
+                        <img src="./images/percent.avif" loading="lazy" decoding="async" width="36" height="22"
+                            alt="images">
+                        <p class="description__col__text">400+ inson o'qigan “Pulni <br> Boshqarish Ilmi” dasturi muallifi</p>
+                    </div>
+                    <div class="description__col">
+                        <img src="./images/percent.avif" loading="lazy" decoding="async" width="36" height="22"
+                            alt="images">
+                        <p class="description__col__text">“MFaktor Executive Club” <br> biznes egalari klubi asoschisi</p>
+                    </div>
+                    <div class="description__col">
+                        <img src="./images/percent.avif" loading="lazy" decoding="async" width="36" height="22"
+                            alt="images">
+                        <p class="description__col__text">“Bookcafe” klubi a’zosi</p>
+                    </div>
+                    <div class="description__col">
+                        <img src="./images/percent.avif" loading="lazy" decoding="async" width="36" height="22"
+                            alt="images">
+                        <p class="description__col__text">Oxirgi yillar ilmga $50.000 ga <br> yaqin pul sarflagan tadbirkor</p>
+                    </div>
+                    <img class="description__images" src="./images/speakerSecond.avif" loading="lazy" decoding="async"
+                        width="307" height="293" alt="speaker">
+                </div>
+
+                <button class="event__btn registerBtn">
+                    Ro’yxatdan o’tish
+                </button>
+                <div class="event__box" style="color: #505050;">
+                    <p>Bepul qatnashishga ulguring</p>
+                    <img src="./images/arrow.png" loading="lazy" decoding="async" width="25" height="25" alt="arrow">
+                </div>
+            </div>
+        </section>
+
+      
+
+        <!-- Modal -->
+        <div id="registrationModal" class="homeModal" style="display: none">
+            <div class="homeModalOverlay"></div>
+            <div class="homeFormContainer">
+                <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                        <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" />
+                    </svg>
+                </button>
+                <div class="homeFormTop">
+                    <h1 class="homeFormTopTitle">
+                        Bepul qatnashish uchun ma'lumotlaringizni kiriting!
+                    </h1>
+                </div>
+                <form id="registrationForm" name="contact-form">
+                    <!-- ISM -->
+                    <div class="HomeFormRow">
+                        <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
+                        <input class="HomeFormRowInput" type="text" id="name" name="name"
+                            placeholder="Ismingizni kiriting" autocomplete="name" />
+                        <p class="homeFormErrorText" id="nameError" style="display: none">
+                            ❌ Ismingizni kiriting!
+                        </p>
+                    </div>
+
+                    <!-- TELEFON -->
+                    <div class="HomeFormRow">
+                        <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                        <div class="phone-input-container">
+                            <!-- LEFT: country -->
+                            <button type="button" class="selected-country" id="selectedCountry">
+                                <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                                <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                            </button>
+
+                            <!-- dropdown -->
+                            <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                            <!-- RIGHT: phone input (number span inside) -->
+                            <div class="phone-field">
+                                <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                    inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                    style="border: none; background-color: transparent;padding-left: 5px;" />
+                            </div>
+                        </div>
+
+                        <p class="homeFormErrorText" id="phoneError" style="display:none">
+                            ❌ Telefon raqam mos emas!
+                        </p>
+                    </div>
+
+                    <button type="submit" class="HomeFormBtn" id="submitBtn">
+                        DAVOM ETISH
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <script defer src="../js/phoneFormatter.js"></script>
+        <script defer src="../js/app.js"></script>
+</body>
+
+</html>

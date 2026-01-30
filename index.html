@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Husan Mamasaidov</title>
+    <style>
+* {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: #F7F1EB;}.container {max-width: 490px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {width: 100%;background-color: #F7F1EB;box-shadow: 0px 3px 4.6px 0px #00000017;border-radius: 0px 0px 24px 24px;border-bottom: 1px solid #92654D;padding: 17.5px 36px;display: flex;align-items: center;justify-content: space-between;margin-bottom: 11px;min-width: 313px;max-width: 490px;}.header__box {display: flex;align-items: center;gap: 8px;}.header__text {font-family: Poppins, sans-serif;color: #000;font-weight: 500;font-size: 16px;line-height: 100%;text-wrap: nowrap;}.header__time {font-family: Montserrat, sans-serif;font-weight: 700;font-size: 18px;line-height: 100%;text-align: center;}.title {font-family: "Kuunari", sans-serif;font-weight: 700;font-size: clamp(28px, 8.8vw, 42px);line-height: 110%;text-align: center;text-transform: uppercase;margin-bottom: 11px;}.title span {color: #980D11;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.expert__img {object-fit: contain;max-width: 428px;width: 100%;height: auto;margin-bottom: -39px;position: relative;z-index: 1;}.speaker__gradient {background-color: #8D1616;filter: blur(100px);max-width: 207px;width: 100%;min-height: 193px;position: absolute;top: 280px;}.event__btn {cursor: pointer;max-width: 407px;text-decoration: none;width: 100%;display: flex;align-items: center;justify-content: center;border: none;position: relative;background: linear-gradient(92.4deg, #A40000 0.98%, #C12626 41.72%, #C82E2E 51.02%, #A40000 106.11%);box-shadow: 0px 4px 0px 0px #6F0000;box-shadow: 0px 6px 25px 0px #89020280;border-radius: 100px;padding: 35px 0;height: 92px;z-index: 20;font-family: Kalnia, sans-serif;color: white;font-weight: 500;font-size: 20px;line-height: 100%;text-align: center;text-transform: uppercase;}.timer__box {background-color: white;border: 1px solid #A40000;border-radius: 20px;padding: 10px 20px;display: flex;flex-direction: column;align-items: center;justify-content: center;gap: 5px;margin-bottom: 20px;}.timer__box h3 {font-family: Poppins, sans-serif;font-weight: 500;font-size: 18px;line-height: 130%;text-align: center;}.timer {font-family: Montserrat, sans-serif;font-weight: 700;font-size: 32px;line-height: 100%;text-transform: uppercase;}.center__info {padding: 12px 0;background-color: #92654D80;backdrop-filter: blur(80px);position: relative;z-index: 20;max-width: clamp(240px, 75vw, 317px);width: 100%;border-radius: 20px 20px 0 0;border: 2px solid rgba(255, 255, 255, 0.59);margin-bottom: -5px;margin-top: -12px;}.center__info__title {font-family: Poppins, sans-serif;font-weight: 500;font-size: clamp(18px, 5vw, 20px);line-height: 130%;text-align: center;z-index: 2;color: white;}@media (max-width:340px) {.event__btn {font-size: 18px;border-radius: 50px;padding: 25px 0;height: 80px;}}
+    </style>
+
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    </noscript>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__box">
+                    <img src="./images/calendar.png" alt="kalendar belgisi" style="margin-top: -3px;"
+                        class="header__text__img" width="18" height="18" loading="lazy" decoding="async">
+                    <p class="header__text">
+                        12-13-Fevral
+                    </p>
+                </div>
+                <p class="header__time">20:00</p>
+            </div>
+
+            <h1 class="title">
+                <span>HAYOTDA ''BALANS''NI TOPISH <br> SIRLARI!</span> 2 kunlik bepul <br>
+                onlayn dars
+            </h1>
+
+            <img src="./images/speaker.avif" alt="Speaker rasmi" class="expert__img minifyImg" decoding="async"
+                loading="lazy" width="428" height="351">
+            <div class="speaker__gradient"></div>
+
+            <div class="center__info">
+                <p class="center__info__title">Xusan Mamasaidov</p>
+            </div>
+
+            <button class="event__btn registerBtn" style="margin-bottom: 30px;">
+                BEPUL QATNASHISH
+            </button>
+
+            <div class="timer__box">
+                <h3>Bepul qatnashishga ulguring:</h3>
+                <p class="timer" id="timer">02:00</p>
+            </div>
+
+            <h3 class="webinar-heading2" style="margin-bottom: 15px;">o’quvchilarim fikrlari</h3>
+
+            <div class="swiper olympics-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="event__item">
+                            <img class="event__images" src="./images/thoughts/6.avif" loading="lazy" decoding="async"
+                                width="128" height="154" alt="images">
+                            <div class="event__col">
+                                <h3 class="event__item__title">Yahyobek mo’minov</h3>
+                                <p class="event__item__text">Hayotda chalg’itadigan narsa juda <br> ham ko’p. Bir yilda
+                                    bir marta sozdan <br> chiqib qolayotgan g’ildiragimizni <br> yana ideal qilish uchun
+                                    <b>bu dasturni <br> hammaga tavsiya qilaman</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="event__item">
+                            <img class="event__images" src="./images/thoughts/1.avif" loading="lazy" decoding="async"
+                                width="128" height="154" alt="images">
+                            <div class="event__col">
+                                <h3 class="event__item__title">Naufal Bozorov</h3>
+                                <p class="event__item__text">Boshida <b>tanqid qilish uchun <br> o’qigandim so’ngida
+                                        tasavvur qilib <br> bo’lmas bilimlar oldim.</b> Qatnashganimdan umuman <br>
+                                    afsuslanmayman va barchaga <br> tavsiya qilaman!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="event__item">
+                            <img class="event__images" src="./images/thoughts/2.avif" loading="lazy" decoding="async"
+                                width="128" height="154" alt="images">
+                            <div class="event__col">
+                                <h3 class="event__item__title">Muhabbat Mahmudova</h3>
+                                <p class="event__item__text">Bu dasturda o’qiganimdan so’ng <br> hayotimga
+                                    <b>hotirjamlik va baraka <br> kirishni boshladi. </b> <br>
+                                    Yaxshi tanishlar orttirdim. Yurtimizda <br> shunaqa insonlar bor ekan hali <br>
+                                    yaxshi yutuqlarni ko’pini kiritamiz 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="event__item">
+                            <img class="event__images" src="./images/thoughts/3.avif" loading="lazy" decoding="async"
+                                width="128" height="154" alt="images">
+                            <div class="event__col">
+                                <h3 class="event__item__title">Mahmud qodiriy</h3>
+                                <p class="event__item__text">Dastur sizga qaysi ilmni qachon <br> o’rganish
+                                    kerakliligini
+                                    o’rgatdi dastur <br> menga. Vaqtni boshqarish, tashkilot <br> ochish, xodim olish,
+                                    <b>barcha <br>
+                                        qadamlarni xato qilmasdan, to’g’ri bajarishni o’rgandim</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="event__item">
+                            <img class="event__images" src="./images/thoughts/4.avif" loading="lazy" decoding="async"
+                                width="128" height="154" alt="images">
+                            <div class="event__col">
+                                <h3 class="event__item__title">Samandar Hamroqulov</h3>
+                                <p class="event__item__text">Ustozning darslarini adashmasam <br>
+                                    <b>4 yoki 5-marotaba o’rganyapman.</b> <br> Eng muhim narsa kompasni <br> ushlash.
+                                    <br>
+                                    Boradigan joyimiz qayerligini bilib <br> harakat qilishimiz kerak</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="event__item">
+                            <img class="event__images" src="./images/thoughts/5.avif" loading="lazy" decoding="async"
+                                width="128" height="154" alt="images">
+                            <div class="event__col">
+                                <h3 class="event__item__title">Shohida ibragimova</h3>
+                                <p class="event__item__text">To’g’ri maqsad qo’yishning ko’p <br> instrumentlarini Husan
+                                    akadan <br> o’rganganman. <span>Har yili dasturlariga <br> qatnashaman.</span> Bir vaqtlar pul to’lab <br> olgan
+                                    bilimimiz bu safar tekin ekan, <br> albatta qatnashing!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="swiper-next-btn" style="margin: 0 auto; display: flex; cursor: pointer;"
+                src="./images/cursor.png" loading="lazy" decoding="async" width="19" height="21" alt="cursor" />
+        </div>
+
+         <section class="webinar-learn webinar-section">
+            <div class="webinar-learn__container container">
+                <h2 class="webinar-heading2">2 kunlik bepul darsda:</h2>
+                <ul class="webinar-learn__list">
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/1.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            <span>Ishda, oilada, hayotda</span> <br> balansni ushlash
+                        </p>
+                    </li>
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/2.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            <span>Dangasalikdan</span> qutulib, <br> maqsadlar tomon <br> harakatlanish
+                        </p>
+                    </li>
+                    <li class="webinar-learn__list__item">
+                        <img class="webinar-learn__list__item__number" src="./images/learn/3.avif" loading="lazy"
+                            decoding="async" width="210" height="113" alt="images">
+                        <p class="webinar-learn__list__item__text">
+                            Qanday qilib <SPan>to'g'ri va uzoq <br> muddatli maqsadlar</SPan> qo'yish <br> mumkinligi
+                            haqida bilib olasiz
+                        </p>
+                    </li>
+                </ul>
+                <button class="event__btn registerBtn" style="margin-bottom: 30px;">
+                    BEPUL QATNASHISH
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul qatnashish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <!-- ISM -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
+                    <input class="HomeFormRowInput" type="text" id="name" name="name" placeholder="Ismingizni kiriting"
+                        autocomplete="name" />
+                    <p class="homeFormErrorText" id="nameError" style="display: none">
+                        ❌ Ismingizni kiriting!
+                    </p>
+                </div>
+
+                <!-- TELEFON -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container">
+                        <!-- LEFT: country -->
+                        <button type="button" class="selected-country" id="selectedCountry">
+                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                        </button>
+
+                        <!-- dropdown -->
+                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                        <!-- RIGHT: phone input (number span inside) -->
+                        <div class="phone-field">
+                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./js/phoneFormatter.js"></script>
+    <script defer src="./js/app.js"></script>
+</body>
+
+</html>
